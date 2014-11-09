@@ -1,0 +1,25 @@
+{
+  "name": "docker-example",
+  "version": "0.0.1",
+  "description": "node in docker",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gihub.com/skyl/docker-example.git"
+  },
+  "keywords": [
+    "docker",
+    "node"
+  ],
+  "author": "Skylar Saveland",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.10.1",
+    "bookshelf": "^0.7.9",
+    "knex": "^0.7.3",
+    "pg": "^3.6.2"
+  }
+}
